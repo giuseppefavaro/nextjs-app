@@ -1,6 +1,8 @@
 import { useState, useEffect } from "react";
 import Product from "../Product";
 
+import styles from "./styles.module.scss";
+
 const ProductList = () => {
   const [productsData, setProductsData] = useState([]);
 
@@ -11,8 +13,10 @@ const ProductList = () => {
   }, []);
 
   return (
-    productsData &&
-    productsData.map((product) => <Product productData={product} />)
+    <section className={styles.ProductList}>
+      { productsData &&
+      productsData.map((product) => <Product productData={product} />) }
+    </section>
   );
 }
 
