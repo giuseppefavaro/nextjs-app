@@ -15,7 +15,7 @@ const ProductList = () => {
   return (
     <section className={styles.ProductList}>
       { productsData &&
-      productsData.map((product) => <Product productData={product} />) }
+      productsData.map((product, index) => <Product key={index} productData={product} />) }
     </section>
   );
 }
