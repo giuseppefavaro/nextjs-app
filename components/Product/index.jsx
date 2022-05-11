@@ -8,9 +8,9 @@ const Product = ({ productData }) => {
     return (
       <article className={styles.Product}>
         <Image src={image} alt={title} width="1049px" height="1500px" />
-        <h4>{title}</h4>
-        <p>{price}</p>
-        <p>{description}</p>
+        <h4 className={styles.Product__title}>{title}</h4>
+        <p className={styles.Product__price}>{price}</p>
+        <p className={styles.Product__description}>{description}</p>
       </article>
     );
   }
