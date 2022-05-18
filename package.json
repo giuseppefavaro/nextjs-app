@@ -1,8 +1,8 @@
 {
-  "name": "nextjs-app",
+  "name": "nextjs-ecommerce",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://giuseppefavaro.github.io/nextjs-app/",
+  "homepage": "https://giuseppefavaro.github.io/nextjs-ecommerce/",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

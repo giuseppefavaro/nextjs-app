@@ -3,6 +3,7 @@ import styles from '../styles/Home.module.css'
 
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import ProductList from '../components/ProductList';
 
 export default function Home() {
   return (
@@ -16,7 +17,7 @@ export default function Home() {
       <Header /> 
 
       <main className={styles.main}>
-
+        <ProductList />
       </main>
 
       <Footer />
